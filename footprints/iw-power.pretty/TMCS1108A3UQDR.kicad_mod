@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "07f86054-2313-4659-aa88-9074c8a6b295")
 	)
 	(fp_line
