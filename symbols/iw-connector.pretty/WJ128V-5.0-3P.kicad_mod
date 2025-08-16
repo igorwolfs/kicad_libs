@@ -520,15 +520,26 @@
 		(uuid "0318bd49-82b5-4fae-b640-e1bb1f56f60b")
 	)
 	(embedded_fonts no)
-	(model "/WJ128V-5.0-3P.3dshapes/CONN-TH_3P-P5.00_WJ128V-5.0-3P.wrl"
+	(model " ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal.wrl"
 		(offset
-			(xyz -0.3 -0.15 0)
+			(xyz 0 0.35 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.wrl"
+		(offset
+			(xyz 5.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
 		)
 	)
 )
